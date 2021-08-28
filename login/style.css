@@ -1,0 +1,286 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    
+    height: 100vh;
+    overflow:hidden;
+    
+}
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.slider-container{
+   
+    overflow:hidden;
+    position:relative;
+    width:100vw;
+    height: 100vh;
+
+}
+
+.left-slide{
+    height: 100%;
+    width: 50%;
+    position:absolute;
+    top: 0;
+    left:0;
+    transition: all 0.5s ease-in-out;
+}
+
+.left-slide>div{
+    height: 100%;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.sign-in-box{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 65%;
+    background:rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(0.3px);
+    -webkit-backdrop-filter: blur(0.3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 10%;
+
+}
+.sign-in-box h1{
+    margin-left: 35%;
+    margin-bottom: 10px;
+}
+
+.sign-in-box h2{
+margin-left: 140px;
+margin-bottom: 50px;
+}
+
+.sign-in-box button{
+width: 100%;
+padding: 10px;
+border: none;
+outline: none;
+background:rgb(206, 72, 247);
+color: black;
+font-size: 17px;
+transition: 0.2s;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+.forgotpassword button{
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+.sign-in-box input{
+    display: block;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    margin-bottom: 50px;
+
+    
+}
+.signin-into h2{
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.signin-into p{
+    margin-bottom: 10px;
+
+    font-size: 20px;
+}
+.signin-into button{
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 5px;
+  outline: none;
+  color: black;
+  font-size: 17px;
+  transition: 0.2s;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+border: none;
+background:rgba(255, 255, 255, 0.25);
+box-shadow: 0 8px 32px 0 rgba(31,38,135,0.3);
+backdrop-filter: blur(0.3px);
+-webkit-backdrop-filter: blur(0.3px);
+border-radius: 10px;
+border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.right-slide{
+    height: 100%;
+    position:absolute;
+    left:50%;
+    width: 50%;
+    transition: all 0.5s ease-in-out;
+
+}
+.right-slide>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+    width: 100%;
+}
+.sign-up-content{
+   margin-bottom: 50%;
+}
+.sign-up-content p{
+ margin: 10px;
+ font-size: 20px;
+}
+.sign-up-content button{
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 5px;
+  outline: none;
+  color: black;
+  font-size: 17px;
+  transition: 0.2s;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+border: none;
+background:rgba(255, 255, 255, 0.25);
+box-shadow: 0 8px 32px 0 rgba(31,38,135,0.3);
+backdrop-filter: blur(0.3px);
+-webkit-backdrop-filter: blur(0.3px);
+border-radius: 10px;
+border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.sign-up-box{
+    height: 80%;
+    justify-content: space-evenly;
+    width: 90%;
+    background:rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(0.3px);
+    -webkit-backdrop-filter: blur(0.3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 5%;
+}
+form .student-details{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .student-details .input-box{
+ margin-bottom: 15px;
+
+   width: calc(100% /2 - 20px);
+
+}
+.student-details .input-box .details{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.student-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(35, 73, 145);
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 3px;
+    transition: 0.3s ease;
+    background: transparent;
+
+}
+.student-details .input-box input:focus,
+.student-details .input-box input:valid{
+    border-color: #9b59b6;
+}
+form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+form .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0 ;
+    justify-content: space-between;
+  }
+  form .category label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  form .category label .dot{
+   height: 18px;
+   width: 18px;
+   border-radius: 50%;
+   margin-right: 10px;
+   background: #f8f8f8;
+   border: 5px solid transparent;
+   transition: all 0.3s ease;
+ }
+  #dot-1:checked ~ .category label .one,
+  #dot-2:checked ~ .category label .two,
+  #dot-3:checked ~ .category label .three{
+    background: #3c65ee;
+    border-color: cornsilk;
+  }
+form input[type="radio"]{
+    display: none;
+}
+form .button{
+    height: 45px;
+    margin:45px 0;
+
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    color: rgb(14, 0, 0);
+    border:none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #2af598 0%, #009efd 100%);
+
+}
+form .button input:hover{
+    background: linear-gradient(-180deg, #2af598 0%, #009efd 100%);
+}
+.sign-up-box .title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
