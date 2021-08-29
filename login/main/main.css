@@ -17,12 +17,55 @@
 .header h2{
     color:  rgb(0, 86, 210);
 }
-.explore{
-    
+.Explore a{
+    margin-left: 30px;
     text-decoration: none;
-    display: flex;
+   display: flex;
+  width: 100px;
+  height: 40px;
+  color:white ;
+  background-color: rgb(0, 86, 210);
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  font-size: medium;
+  
+}
+.Explore a:hover{
+    background-color: white;
+    color:rgb(0, 86, 210) ;
+    
+}
+.details a{
+    margin-left: 30px;
+    text-decoration: none;
+   display: flex;
+  width: 200px;
+  height: 40px;
+  color:black ;
+  
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+.details{
+    margin-left: 65%;
 
 }
+.details:hover{
+  border-style: solid;
+  border-radius: 5px;
+  
+}
+.details h3{
+font-size: 1.3rem;
+
+}
+.details img{
+  height: 90%;
+}
+
 
 
 
