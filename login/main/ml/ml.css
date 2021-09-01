@@ -1,0 +1,230 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.header{
+    display: flex;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+    padding-left: 1.5rem;
+    border: 2px solid rgb(95, 95, 95,0.1);
+   height: 10vh;
+   align-items: center;
+   
+}
+.header h2{
+    color:  rgb(0, 86, 210);
+}
+.Explore a{
+    margin-left: 30px;
+    text-decoration: none;
+   display: flex;
+  width: 100px;
+  height: 40px;
+  color:white ;
+  background-color: rgb(0, 86, 210);
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  font-size: medium;
+  
+}
+.Explore a:hover{
+    background-color: white;
+    color:rgb(0, 86, 210) ;
+    
+}
+.details a{
+    margin-left: 30px;
+    text-decoration: none;
+   display: flex;
+  width: 200px;
+  height: 40px;
+  color:black ;
+  
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+.details{
+    margin-left: 65%;
+
+}
+.details:hover{
+  border-style: solid;
+  border-radius: 5px;
+  
+}
+.details h3{
+font-size: 1.3rem;
+
+}
+.details img{
+  height: 90%;
+}
+.container{
+    height: 90vh;
+   
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.left{
+    height: 100%;
+    width: 20vw;
+    border:2px solid rgb(235, 236, 237) ;
+}
+.right
+{
+    height: 270vh;
+    width: 80vw;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    position: absolute;
+    top: 0;
+    left: 20vw;
+    transition: all 0.5s ease-in-out;
+
+}
+.overview{
+    height: 90vh;
+    
+}
+.week{
+    height:90vh;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+ background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+.left img{
+    width: 7rem;
+}
+
+.overview p{
+padding-left: 30px;
+font-size: 1.3rem;
+padding-top: 15px;
+padding-right: 20px;
+}
+.overview h2{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 2rem;
+}
+.skill{
+    display: flex;
+    margin: 10px;
+justify-content: space-evenly;
+}
+.skills h2{
+   font-size: 1.6rem;
+}
+.skill h3{
+border: 1px solid rgb(173, 173, 173);
+border-radius: 15px;
+padding: 8px;
+background-color: rgb(203, 204, 207);
+}
+.skills{
+    border: 2px solid rgb(195, 199, 202);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.teacher{
+    width: 100%;
+}
+.teacher img{
+    width: 4rem;
+    margin-left: 35px;
+}
+.teacher h2{
+    font-size: 1.5rem;
+}
+.big-det{
+    display: flex;
+    width: 100%;
+}
+.det{
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.det h4{
+    margin-top: 5px;
+    color: rgb(35, 149, 214);
+}
+.start{
+    width: 25%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.start a{
+    margin-left: 15px;
+    border: 2px solid  rgb(0, 86, 210);
+    height: 50%;
+    width: 5rem;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(0, 86, 210) ;
+    border-radius: 7px;
+}
+.video
+{
+    display: flex;
+   align-items: center;
+   margin-left: 5%;
+  font-size: 1.2rem;
+
+}
+.video a{
+    margin-left: 10%;
+    border: 2px solid  rgb(0, 86, 210);
+    height: 40%;
+    width: 7rem;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(0, 86, 210) ;
+    border-radius: 7px;
+    font-weight: 900;
+}
+.welcome{
+    margin: 20px;
+    border: 2px solid rgb(235, 236, 237) ;
+    padding: 20px;
+    
+}
+.left-over{
+   
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+   padding: 3px;
+    
+    width: 100%;
+    color:rgb(18, 111, 241) ;
+   
+    border-radius: 6px;
+
+
+}
+.left-over:hover{
+    background-color: rgb(202, 223, 243) ;
+}
