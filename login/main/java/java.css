@@ -94,6 +94,9 @@ font-size: 1.3rem;
 .overview{
     height: 90vh;
     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .week{
     height:90vh;
