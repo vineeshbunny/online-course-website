@@ -11,10 +11,7 @@ async function jokes(){
     
     quotesy.innerText= final[num].text;
     author.innerText=final[num].author;
-    num+=1
-
-    
-    
+    num+=1    
 
 }
 
